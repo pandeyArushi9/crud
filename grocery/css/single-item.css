@@ -1,0 +1,19 @@
+.edit-btn {
+  background: var(--success-color);
+}
+
+.remove-btn {
+  background: var(--danger-color);
+}
+
+.icon-btn {
+  margin-left: 0.4rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 6px;
+  color: rgb(189, 75, 75);
+  transition: transform 0.2s ease;
+}
+
+.icon-btn:hover {
+  transform: rotate(-5deg) scale(1.1);
+}
